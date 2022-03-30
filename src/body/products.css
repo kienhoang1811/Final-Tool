@@ -1,0 +1,110 @@
+.products{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(231, 18, 46); */
+    float:right;
+    /* border-radius: 15px; */
+    text-align: center;
+    /* display: flex; */
+    /* margin-left: 1em; */
+    /* position: relative; */
+}
+.row{
+    
+   
+    width: 100%;
+    height: 300px;
+    /* position:; */
+    margin-left: 0.7px;
+    /* position: relative; */
+    margin-top: 20px;
+    
+    
+    
+}
+.thoitrangnam , .thoitrangnu, .thoitrangcongso{
+    width:100%;
+    height: 33px;
+    background-color:#ffffff;
+    /* display:flex; */
+    /* align-items: center; */
+    /* position: relative; */
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    margin-top: 0;
+    /* float:left; */
+}
+.colum{
+    
+    width:25%;
+    height: 100%;
+    /* background-color: rgb(37, 87, 70); */
+    float: left;
+    /* position: absolute; */
+    
+    /* box-shadow: 10px 10px #888888; */
+}
+.bodo{
+    width:100%;
+    height: 80%;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+@media only screen and (max-width: 46.187em) {
+    .products{
+        width: 100%;
+        height: 100%;
+    }
+    .row{
+        width: 100%;
+        height:400px;
+         
+    }
+    .colum{
+        width:100%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+    }
+    .bodo{
+        width:80%;
+        height: 80%;
+        padding: 0 10%;
+    }
+    #colum{
+        display: none;
+    }
+    .thoitrangnam , .thoitrangnu, .thoitrangcongso{
+        width: 100%;
+        font-size:x-large;
+
+    }
+}
+@media only screen and (min-width: 46.187em) and (max-width:69.937em) {
+    .products{
+        width: 100%;
+        height: 100%;
+    }
+    .row{
+        padding: 10px;
+        width: 100%;
+        height: 600px;
+         
+    }
+    .colum{
+        width:50%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+    }
+    .thoitrangnam , .thoitrangnu, .thoitrangcongso{
+        width: 100%;
+    }
+    
+}
+
+

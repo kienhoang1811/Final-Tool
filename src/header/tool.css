@@ -1,0 +1,52 @@
+.user-avata{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+.search, .cart, .create, .user{
+    margin:auto;
+    
+}
+.b-create {
+    width: 100px;
+    background-color: #6ae921; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 20px;
+    letter-spacing: 1px;
+  }
+.tool{
+    
+    width: 35%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    float:left;
+}
+@media only screen and (max-width: 69.937em) {
+    .create, .user{
+        display: none;
+    }
+    .search,.cart{
+        
+        margin-right:15px;
+    }
+}
+/* @media only screen and (min-width: 46.187em) and (max-width:69.937em) {
+    .create{
+        display: none;
+    
+    }
+    .search{
+        margin: 0 10px;
+    }
+} */

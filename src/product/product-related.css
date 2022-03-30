@@ -1,0 +1,50 @@
+.product-realated-list{
+    
+    /* background-color: dodgerblue; */
+    width: 100%;
+    height: 400px;
+    /* position: absolute; */
+    
+}
+.product-related-label{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 166, 0);
+    font-size: xx-large;
+    font-weight: bold;
+    
+    font-family:monospace;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.product-colum{
+    width: 25%;
+    height: 100%;
+    
+    float: left;
+}
+.product-bodo{
+    
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+
+}
+.product-name {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.product-name span{
+    
+    display: inline-block;
+    
+}
+.container-page-product{
+    padding: 0 150px;
+}
